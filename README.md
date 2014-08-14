@@ -949,6 +949,29 @@ true
 
 [JSBin](http://jsbin.com/mexanu/1/edit) | [JSBin explained](http://jsbin.com/tizagi/2/edit)
 
+Q. What's the result?
+
+```javascript
+(function(limit) {
+  for (var i = 0; i < limit; i++) {
+    (function() {
+      var j = i;
+      setTimeout(function() {
+        console.log(j);
+      }, 0);
+    })();
+  }
+})(3);
+```
+
+A.
+
+```javascript
+0
+1
+2
+```
+[JSBin](http://jsbin.com/wubanu/1/edit)
 # License
 
 Released under the MIT License.
