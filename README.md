@@ -1214,8 +1214,22 @@ A.
 ```javascript
 4
 ```
-
 [JSBin](http://jsbin.com/cabalutozu/1/edit) | [JSBin explained](http://jsbin.com/yewopuxohi/1/edit)
+
+Q. What's the result?
+
+```javascript
+(function() {
+  return [][+[]] === undefined;
+})();
+```
+
+A.
+
+```javascript
+true
+```
+[JSBin](http://jsbin.com/juwegaluta/1/edit) | [JSBin explained](http://jsbin.com/josazomiyu/1/edit)
 
 # License
 
