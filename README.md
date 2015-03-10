@@ -1214,6 +1214,8 @@ A.
 ```javascript
 4
 ```
+[JSBin](http://jsbin.com/cabalutozu/1/edit) | [JSBin explained](http://jsbin.com/yewopuxohi/1/edit)
+
 Q. What's the result?
 
 ```javascript
